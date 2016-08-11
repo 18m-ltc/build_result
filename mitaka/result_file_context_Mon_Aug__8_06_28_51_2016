@@ -1,7 +1,0 @@
-Mon Aug  8 06:28:51 EDT 2016
-
-./ironic/ironic-inspector/ ===> *successful* 
-./ironic/ironic-api/ ===> *successful* 
-./ironic/ironic-base/ ===> *successful* 
-./ironic/ironic-conductor/ ===> *successful* 
-./ironic/ironic-pxe/ ===> *failed* 

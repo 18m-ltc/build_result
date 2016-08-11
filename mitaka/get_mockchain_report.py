@@ -36,10 +36,11 @@ def download_rebuild_report(host, user, password, file_location):
 
 
 def main():
-    download_rebuild_report(host='9.114.112.227',
-                            user='root',
-                            password='passw0rd',
-                            file_location='/var/log/mockchain')
+    result = download_rebuild_report(host='9.114.112.227',
+                                     user='root',
+                                     password='passw0rd',
+                                     file_location='/var/log/mockchain')
+    return result
 
 
 if __name__ == '__main__':

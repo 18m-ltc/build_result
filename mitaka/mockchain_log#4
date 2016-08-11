@@ -1,0 +1,10 @@
+1470722963.03:starting logfile: /var/log/mockchain
+1470722963.03:results dir: /var/tmp/mock-chain-root-26197-KC33Hs/results/epel-7-ppc64le
+1470722963.03:config dir: /var/tmp/mock-chain-root-26197-KC33Hs/configs/epel-7-ppc64le
+1470722963.14:Start build: subunit-1.0.0-1.el7.centos.src.rpm
+1470722999.62:End build: subunit-1.0.0-1.el7.centos.src.rpm
+1470722999.62:Success building subunit-1.0.0-1.el7.centos.src.rpm
+1470722999.85:Results out to: /var/tmp/mock-chain-root-26197-KC33Hs/results/epel-7-ppc64le
+1470722999.85:Pkgs built: 1
+1470722999.85:Packages successfully built in this order:
+1470722999.85:subunit-1.0.0-1.el7.centos.src.rpm

@@ -19,13 +19,16 @@ def download_rebuild_report(host, user, password, file_location):
         child_local.logfile_send = sys.stdout
         while True:
             index = child_local.expect(['\s*Are you sure you want to continue connecting\s*',
-                                        '\s*password: '])
+                                        '\s*password: ',
+                                        pexpect.EOF, pexpect.TIMEOUT])
             if index == 0:
                 child_local.sendline('yes')
             elif index == 1:
                 child_local.sendline(password)
-            else:
+            elif index == 2 or index == 3:
                 break
+            else:
+                pass
         return 0
     except Exception as e:
         print('have exception: %s', e)

@@ -1,0 +1,14 @@
+1471247504.19:starting logfile: /var/log/mockchain
+1471247504.19:results dir: /var/tmp/mock-chain-root-18311-RCGiQX/results/epel-7-ppc64le
+1471247504.2:config dir: /var/tmp/mock-chain-root-18311-RCGiQX/configs/epel-7-ppc64le
+1471247504.3:Start build: /root/build/test/python-crypto-2.6.1-1.ael7b.src.rpm
+1471247698.47:End build: /root/build/test/python-crypto-2.6.1-1.ael7b.src.rpm
+1471247698.47:Success building python-crypto-2.6.1-1.ael7b.src.rpm
+1471247698.63:Start build: /root/build/test/python-werkzeug-0.9.1-2.ael7b.src.rpm
+1471247744.39:End build: /root/build/test/python-werkzeug-0.9.1-2.ael7b.src.rpm
+1471247744.39:Success building python-werkzeug-0.9.1-2.ael7b.src.rpm
+1471247744.57:Results out to: /var/tmp/mock-chain-root-18311-RCGiQX/results/epel-7-ppc64le
+1471247744.57:Pkgs built: 2
+1471247744.57:Packages successfully built in this order:
+1471247744.57:/root/build/test/python-crypto-2.6.1-1.ael7b.src.rpm
+1471247744.57:/root/build/test/python-werkzeug-0.9.1-2.ael7b.src.rpm
